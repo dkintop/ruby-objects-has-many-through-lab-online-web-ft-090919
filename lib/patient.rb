@@ -1,4 +1,4 @@
-class Patient 
+=begin class Patient 
   attr_reader :name
   
   @@all = []
@@ -30,3 +30,6 @@ class Patient
   
   
 end 
+
+=end
+
