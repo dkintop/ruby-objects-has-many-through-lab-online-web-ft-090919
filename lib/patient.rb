@@ -36,7 +36,7 @@ end
 class Patient
   
   attr_accessor :name
-  
+                     
   @@all = []
   
   def initialize(name)
@@ -57,7 +57,7 @@ class Patient
   end
   
   def doctors
-    appointments.map {|appt| appt.date}
-  end
+    appointments.map {|appt| appt.date}          #notice this says appt.date instead of appt.doctor. I think something got placed out of position somewher
+    end
   
 end
